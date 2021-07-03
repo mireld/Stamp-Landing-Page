@@ -1,0 +1,19 @@
+# Clonar un repositorio
+git clone git@github.com:Team-Ucamp-001/BOOT-M1-SEM4-PROY1.git
+# # Crear una rama desde "main"
+# 1. Asegurarse que estamos en "main"
+git checkout main
+# 2. Importante: hacer pull
+git pull origin main
+# 3. Crear la rama
+git checkout -b "nueva-rama"
+# Ver el "status" de mi proyecto
+git status
+# Ver los commits
+git log
+# Para subir cambios:
+git status
+git pull origin nombre-de-mi-rama  #opcional
+git add . # para agregar todo, tmb se puede hacer archivo por archivo
+git commit -m "desripción del commit"
+git push origin nombre-de-mi-rama #importante indicar la rama correcta
